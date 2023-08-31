@@ -1,6 +1,4 @@
 ﻿using BepInEx;
-using MonoMod.Cil;
-using UnityEngine.TextCore.Text;
 using UnityEngine;
 using Reptile;
 using CharacterAPI;

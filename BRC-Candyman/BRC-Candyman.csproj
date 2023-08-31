@@ -22,10 +22,10 @@
 
   <ItemGroup>
 	<Reference Include="Assembly-CSharp">
-	  <HintPath>Assemblies\Assembly-CSharp.dll</HintPath>
+	  <HintPath>..\Assemblies\Assembly-CSharp.dll</HintPath>
 	</Reference>
 	<Reference Include="CharacterAPI">
-	  <HintPath>Assemblies\CharacterAPI.dll</HintPath>
+	  <HintPath>..\Assemblies\CharacterAPI.dll</HintPath>
 	</Reference>
   </ItemGroup>
 

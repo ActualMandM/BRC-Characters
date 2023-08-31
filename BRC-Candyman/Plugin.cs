@@ -12,7 +12,7 @@ namespace BRC_Candyman
 	{
 		public const string ModGuid = "com.MandM.BRC-Candyman";
 		public const string ModName = "BRC-Candyman";
-		public const string ModVer = "1.1.0";
+		public const string ModVer = "1.1.1";
 
 		public void Awake()
 		{
@@ -32,9 +32,7 @@ namespace BRC_Candyman
 			candy.AddOutfit(bundle.LoadAsset<Material>("candyMat3.mat"), "Pastel");
 			candy.AddOutfit(bundle.LoadAsset<Material>("candyMat4.mat"), "Saturate");
 
-			//candy.AddPersonalGraffiti("Candyman", "N/A", bundle.LoadAsset<Material>("candyGraffiti.mat"), bundle.LoadAsset<Texture>("graffitiTexture.png"));
-			candy.personalGraffitiBase = Characters.eightBall;
-
+			candy.AddPersonalGraffiti("Candyman", "Team Reptile", bundle.LoadAsset<Material>("candyGraffiti.mat"), bundle.LoadAsset<Texture>("graffitiTexture.png"));
 			candy.CreateModdedCharacter();
 		}
 	}

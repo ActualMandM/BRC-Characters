@@ -3,3 +3,5 @@ A repository hosting BepInEx plugins for [Bomb Rush Cyberfunk](https://store.ste
 
 ## Index
 - [Candyman](BRC-Candyman)
+- [Escher](BRC-Escher)
+- [Beat (NEO: The World Ends With You)](BRC-NEOTWEWY_Beat)

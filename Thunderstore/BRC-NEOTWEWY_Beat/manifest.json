@@ -1,0 +1,11 @@
+{
+  "name": "BRC_NEOTWEWY_Beat",
+  "version_number": "1.1.0",
+  "website_url": "https://github.com/ActualMandM/BRC-Characters/blob/main/BRC-NEOTWEWY_Beat",
+  "description": "Play as Beat (Daisukenojo Bito) from NEO: The World Ends With You!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "viliger-HookGenPatcher-1.2.10",
+    "viliger-CharacterAPI-0.7.4"
+  ]
+}

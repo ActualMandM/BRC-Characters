@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace BRC_Candyman
 {
-	[BepInPlugin("com.MandM.BRC-Candyman", "BRC-Candyman", "1.1.3")]
+	[BepInPlugin("com.MandM.BRC-Candyman", "BRC-Candyman", "1.2.0")]
 	[BepInDependency("com.Viliger.CharacterAPI", "0.6.0")]
 
 	public class Plugin : BaseUnityPlugin
@@ -17,7 +17,7 @@ namespace BRC_Candyman
 
 			ModdedCharacterConstructor chara = new ModdedCharacterConstructor();
 			chara.characterName = "Candyman";
-			chara.characterPrefab = bundle.LoadAsset<GameObject>("candy");
+			chara.characterPrefab = bundle.LoadAsset<GameObject>("candy_character");
 			chara.defaultOutfit = 0;
 			chara.defaultMoveStyle = MoveStyle.SKATEBOARD;
 			chara.audioClips = bundle.LoadAllAssets<AudioClip>().ToList();
